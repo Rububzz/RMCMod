@@ -1,4 +1,4 @@
-// 1.21	2026-01-21T15:34:38.0629281	raebu Mod/Model Definitions
+// 1.21	2026-01-21T16:02:23.7857596	raebu Mod/Model Definitions
 be582c862d36df897a185a3b7bd35b6cbd23db42 assets\raebumod\models\item\pink_garnet_chestplate_amethyst_trim.json
 543e2a086348f18f29f604fda4416815a714606d assets\raebumod\models\item\pink_garnet_leggings.json
 29ae8932bf78405b07b45e879f943977d41baa22 assets\raebumod\models\item\pink_garnet_boots_copper_trim.json
@@ -32,6 +32,7 @@ cc83353662e8fab545fba9ee5ee4e1dbbe3e4f52 assets\raebumod\models\item\pink_garnet
 520827799ea12c278a53efa22990c13566160ddb assets\raebumod\models\item\pink_garnet_boots_lapis_trim.json
 3123456181c6cf521798628c1e1166ae86ebf2a6 assets\raebumod\models\item\pink_garnet_leggings_iron_trim.json
 5e40e6a0a527f91747cadcb9b88d815629e9348c assets\raebumod\models\item\pink_garnet_chestplate_copper_trim.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\raebumod\models\item\tandemaus_spawn_egg.json
 8d29cce9760b0fbb5f819cabac5168381de997c2 assets\raebumod\models\item\pink_garnet_boots_iron_trim.json
 e015a4b97fa04e000bdc50ec9648e52df7da9010 assets\raebumod\models\item\pink_garnet_boots_diamond_trim.json
 492adfdd2685ac84e5efba80e49feef96376bd72 assets\raebumod\models\item\raw_pink_garnet.json

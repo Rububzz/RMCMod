@@ -18,6 +18,7 @@ public class ModItemgroups {
                 entries.add(ModItems.PINK_GARNET_BOOTS);
                 entries.add(ModItems.PINK_GARNET_CHESTPLATE);
                 entries.add(ModItems.PINK_GARNET_LEGGINGS);
+                entries.add(ModItems.TANDEMAUS_SPAWN_EGG);
             } ).build());
 
     public static void registerItemGroups() {

@@ -2,6 +2,9 @@ package net.raebu.raebumod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import net.raebu.raebumod.entity.ModEntities;
+import net.raebu.raebumod.entity.custom.TandemausEntity;
 import net.raebu.raebumod.item.ModItemgroups;
 import net.raebu.raebumod.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +19,7 @@ public class RaebuMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemgroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModEntities.registerModEntities();
+		FabricDefaultAttributeRegistry.register(ModEntities.TANDEMAUS, TandemausEntity.createAttributes());
 	}
 }
