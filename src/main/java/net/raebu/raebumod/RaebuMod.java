@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.raebu.raebumod.entity.ModEntities;
+import net.raebu.raebumod.entity.custom.MausholdFourEntity;
 import net.raebu.raebumod.entity.custom.MausholdThreeEntity;
 import net.raebu.raebumod.entity.custom.TandemausEntity;
 import net.raebu.raebumod.item.ModItemgroups;
@@ -23,5 +24,7 @@ public class RaebuMod implements ModInitializer {
 		ModEntities.registerModEntities();
 		FabricDefaultAttributeRegistry.register(ModEntities.TANDEMAUS, TandemausEntity.createAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.MAUSHOLD_3, MausholdThreeEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.MAUSHOLD_4, MausholdFourEntity.createAttributes());
 	}
+
 }

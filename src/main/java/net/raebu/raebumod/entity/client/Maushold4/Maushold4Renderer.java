@@ -1,26 +1,26 @@
-package net.raebu.raebumod.entity.client.Maushold3;
+package net.raebu.raebumod.entity.client.Maushold4;
 
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
-import net.raebu.raebumod.entity.custom.MausholdThreeEntity;
 import net.raebu.raebumod.RaebuMod;
+import net.raebu.raebumod.entity.custom.MausholdFourEntity;
 
-public class Maushold3Renderer extends MobEntityRenderer<MausholdThreeEntity, Maushold3Model<MausholdThreeEntity>> {
+public class Maushold4Renderer extends MobEntityRenderer<MausholdFourEntity, Maushold4Model<MausholdFourEntity>> {
 
-    public Maushold3Renderer(EntityRendererFactory.Context context) {
-        super(context, new Maushold3Model<>(context.getPart(Maushold3Model.MAUSHOLD3)), 0.75f);
+    public Maushold4Renderer(EntityRendererFactory.Context context) {
+        super(context, new Maushold4Model<>(context.getPart(Maushold4Model.MAUSHOLD4)), 0.75f);
     }
 
     @Override
-    public Identifier getTexture(MausholdThreeEntity entity) {
+    public Identifier getTexture(MausholdFourEntity entity) {
         return Identifier.of(RaebuMod.MOD_ID, "textures/entity/maushold/maushold.png");
     }
 
     @Override
-    public void render(MausholdThreeEntity livingEntity, float f, float g, MatrixStack matrixStack,
+    public void render(MausholdFourEntity livingEntity, float f, float g, MatrixStack matrixStack,
             VertexConsumerProvider vertexConsumerProvider, int i) {
         if (livingEntity.isBaby()) {
             matrixStack.scale(0.5f, 0.5f, 0.5f);

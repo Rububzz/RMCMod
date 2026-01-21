@@ -6,6 +6,8 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.raebu.raebumod.entity.ModEntities;
 import net.raebu.raebumod.entity.client.Maushold3.Maushold3Model;
 import net.raebu.raebumod.entity.client.Maushold3.Maushold3Renderer;
+import net.raebu.raebumod.entity.client.Maushold4.Maushold4Model;
+import net.raebu.raebumod.entity.client.Maushold4.Maushold4Renderer;
 import net.raebu.raebumod.entity.client.Tandemaus.TandemausModel;
 import net.raebu.raebumod.entity.client.Tandemaus.TandemausRenderer;
 
@@ -16,5 +18,7 @@ public class RaebuModClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.TANDEMAUS, TandemausRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(Maushold3Model.MAUSHOLD3, Maushold3Model::getTexturedModelData);
         EntityRendererRegistry.register(ModEntities.MAUSHOLD_3, Maushold3Renderer::new);
+        EntityModelLayerRegistry.registerModelLayer(Maushold4Model.MAUSHOLD4, Maushold4Model::getTexturedModelData);
+        EntityRendererRegistry.register(ModEntities.MAUSHOLD_4, Maushold4Renderer::new);
     }
 }
