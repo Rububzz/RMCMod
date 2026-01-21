@@ -1,5 +1,9 @@
 {
   "item.raebumod.pink_garnet": "Pink Garnet",
   "item.raebumod.raw_pink_garnet": "Raw Pink Garnet",
-  "item.raebumod.pink_garnet_items": "Pink Garnet Items"
+  "itemgroup.raebumod.pink_garnet_items": "Pink Garnet Items",
+  "item.raebumod.pink_garnet_helmet": "Pink Garnet Helmet",
+  "item.raebumod.pink_garnet_chestplate": "Pink Garnet Chestplate",
+  "item.raebumod.pink_garnet_leggings": "Pink Garnet Leggings",
+  "item.raebumod.pink_garnet_boots": "Pink Garnet Boots"
 }

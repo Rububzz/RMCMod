@@ -14,7 +14,10 @@ public class ModItemgroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET)).displayName(Text.translatable("itemgroup.raebumod.pink_garnet_items")).entries((displayContext, entries) ->{
                 entries.add(ModItems.PINK_GARNET);
                 entries.add(ModItems.RAW_PINK_GARNET);
-
+                entries.add(ModItems.PINK_GARNET_HELMET);
+                entries.add(ModItems.PINK_GARNET_BOOTS);
+                entries.add(ModItems.PINK_GARNET_CHESTPLATE);
+                entries.add(ModItems.PINK_GARNET_LEGGINGS);
             } ).build());
 
     public static void registerItemGroups() {
