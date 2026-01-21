@@ -20,6 +20,7 @@ public class ModItems {
     public static final Item PINK_GARNET_BOOTS = registerItem("pink_garnet_boots", new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
     public static final Item TANDEMAUS_SPAWN_EGG = registerItem("tandemaus_spawn_egg",
             new SpawnEggItem(ModEntities.TANDEMAUS, 0x000100, 0x000000, new Item.Settings()));
+    public static final Item MAuSHOLD_THREE_SPAWN_EGG = registerItem("maushold_3_spawn_egg", new SpawnEggItem(ModEntities.MAUSHOLD_3,0x111000, 0x111011, new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(RaebuMod.MOD_ID, name), item);
