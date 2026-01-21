@@ -2,6 +2,7 @@ package net.raebu.raebumod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.raebu.raebumod.item.ModItemgroups;
 import net.raebu.raebumod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class RaebuMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemgroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }
