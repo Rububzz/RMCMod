@@ -12,5 +12,8 @@
   "item.raebumod.maushold_3_spawn_egg": "Maushold Trio Spawn Egg",
   "entity.raebumod.maushold_3": "Maushold3",
   "item.raebumod.maushold_4_spawn_egg": "Maushold 4 Spawn Egg",
-  "entity.raebumod.maushold_4": "Maushold4"
+  "entity.raebumod.maushold_4": "Maushold4",
+
+  "item.raebumod.sylveon_spawn_egg" : "Sylveon Spawn Egg",
+  "entity.raebumod.sylveon": "Sylveon"
 }

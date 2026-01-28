@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.raebu.raebumod.entity.ModEntities;
 import net.raebu.raebumod.entity.custom.MausholdFourEntity;
 import net.raebu.raebumod.entity.custom.MausholdThreeEntity;
+import net.raebu.raebumod.entity.custom.SylveonEntity;
 import net.raebu.raebumod.entity.custom.TandemausEntity;
 import net.raebu.raebumod.item.ModItemgroups;
 import net.raebu.raebumod.item.ModItems;
@@ -25,6 +26,7 @@ public class RaebuMod implements ModInitializer {
 		FabricDefaultAttributeRegistry.register(ModEntities.TANDEMAUS, TandemausEntity.createAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.MAUSHOLD_3, MausholdThreeEntity.createAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.MAUSHOLD_4, MausholdFourEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.SYLVEON, SylveonEntity.createAttributes());
 	}
 
 }
