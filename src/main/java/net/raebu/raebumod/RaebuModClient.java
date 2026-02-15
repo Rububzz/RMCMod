@@ -4,6 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.raebu.raebumod.entity.ModEntities;
+import net.raebu.raebumod.entity.client.Hachiware.HachiwareRenderer;
 import net.raebu.raebumod.entity.client.Maushold3.Maushold3Model;
 import net.raebu.raebumod.entity.client.Maushold3.Maushold3Renderer;
 import net.raebu.raebumod.entity.client.Maushold4.Maushold4Model;
@@ -24,6 +25,8 @@ public class RaebuModClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.MAUSHOLD_4, Maushold4Renderer::new);
         EntityModelLayerRegistry.registerModelLayer(SylveonModel.SYLVEON, SylveonModel::getTexturedModelData);
         EntityRendererRegistry.register(ModEntities.SYLVEON, SylveonRenderer::new);
+
+        EntityRendererRegistry.register(ModEntities.HACHIWARE, HachiwareRenderer::new);
 
     }
 }
