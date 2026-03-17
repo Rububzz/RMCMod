@@ -15,5 +15,7 @@
   "entity.raebumod.maushold_4": "Maushold4",
 
   "item.raebumod.sylveon_spawn_egg" : "Sylveon Spawn Egg",
-  "entity.raebumod.sylveon": "Sylveon"
+  "entity.raebumod.sylveon": "Sylveon",
+  "item.raebumod.hachiware_spawn_egg": "Hachiware Spawn Egg",
+  "entity.raebumod.hachiware": "Hachiware"
 }
