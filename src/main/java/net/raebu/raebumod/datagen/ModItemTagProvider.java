@@ -4,6 +4,7 @@ import java.util.concurrent.CompletableFuture;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.raebu.raebumod.item.ModItems;
@@ -29,5 +30,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.CINNA_CHESTPLATE)
                 .add(ModItems.CINNA_LEGGINGS)
                 .add(ModItems.CINNA_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.CINNAMONROLL_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.KUROMI_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.MYMELO_AXE);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.HELLO_KITTIE_HOE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.POMPOM_SHOVEL);
     }
 }

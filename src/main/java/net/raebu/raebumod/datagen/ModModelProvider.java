@@ -35,6 +35,10 @@ public class ModModelProvider extends FabricModelProvider {
                 itemModelGenerator.registerArmor(((ArmorItem) ModItems.CINNA_CHESTPLATE));
                 itemModelGenerator.registerArmor(((ArmorItem) ModItems.CINNA_LEGGINGS));
                 itemModelGenerator.registerArmor(((ArmorItem) ModItems.CINNA_BOOTS));
+                itemModelGenerator.registerArmor(((ArmorItem) ModItems.HACHIWARE_HELMET));
+                itemModelGenerator.registerArmor(((ArmorItem) ModItems.HACHIWARE_CHESTPLATE));
+                itemModelGenerator.registerArmor(((ArmorItem) ModItems.HACHIWARE_LEGGINGS));
+                itemModelGenerator.registerArmor(((ArmorItem) ModItems.HACHIWARE_BOOTS));
                 itemModelGenerator.register(ModItems.TANDEMAUS_SPAWN_EGG,
                                 new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
                 itemModelGenerator.register(ModItems.MAUSHOLD_THREE_SPAWN_EGG,
@@ -45,5 +49,11 @@ public class ModModelProvider extends FabricModelProvider {
                                 new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
                 itemModelGenerator.register(ModItems.HACHIWARE_SPAWN_EGG,
                                 new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
+                itemModelGenerator.register(ModItems.CINNAMONROLL_SWORD, Models.HANDHELD);
+                itemModelGenerator.register(ModItems.KUROMI_PICKAXE, Models.HANDHELD);
+                itemModelGenerator.register(ModItems.MYMELO_AXE, Models.HANDHELD);
+                itemModelGenerator.register(ModItems.POMPOM_SHOVEL, Models.HANDHELD);
+                itemModelGenerator.register(ModItems.HELLO_KITTIE_HOE, Models.HANDHELD);
+
         }
 }

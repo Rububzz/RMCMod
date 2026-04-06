@@ -9,7 +9,7 @@ import net.raebu.raebumod.RaebuMod;
 
 public class ModTags {
     public static class Blocks {
-        public final TagKey<Block> NEEDS_SANRIO_TOOL = createTag("needs_sanrio_tool");
+        public static final TagKey<Block> NEEDS_SANRIO_TOOL = createTag("needs_sanrio_tool");
         public static final TagKey<Block> INCORRECT_FOR_SANRIO_TOOL = createTag("incorrect_for_sanrio_tool");
 
         private static TagKey<Block> createTag(String name) {

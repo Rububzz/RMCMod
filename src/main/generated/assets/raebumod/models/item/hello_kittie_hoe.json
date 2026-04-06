@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "raebumod:item/hello_kittie_hoe"
+  }
+}

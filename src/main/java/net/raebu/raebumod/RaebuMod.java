@@ -5,17 +5,12 @@ import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.entity.player.PlayerEntity;
 import net.raebu.raebumod.entity.ModEntities;
 import net.raebu.raebumod.entity.custom.HachiwareEntity;
 import net.raebu.raebumod.entity.custom.MausholdFourEntity;
@@ -46,16 +41,6 @@ public class RaebuMod implements ModInitializer {
 
 	public static void queueServerWork(int ticks, Runnable action) {
 		WORK_QUEUE.add(new QueuedWork(action, ticks));
-	}
-
-	@Nullable
-	public static PlayerEntity clientPlayer() {
-		if (FabricLoader.getInstance().getEnvironmentType() != EnvType.CLIENT) {
-			return null;
-		}
-
-		MinecraftClient client = MinecraftClient.getInstance();
-		return client == null ? null : client.player;
 	}
 
 	private void registerServerTickWorkQueue() {

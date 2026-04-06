@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "raebumod:pink_garnet"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " T ",
+    " T "
+  ],
+  "result": {
+    "count": 1,
+    "id": "raebumod:kuromi_pickaxe"
+  }
+}
