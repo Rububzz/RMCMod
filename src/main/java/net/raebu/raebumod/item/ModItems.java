@@ -38,6 +38,18 @@ public class ModItems {
         public static final Item CINNA_BOOTS = registerItem("cinna_boots",
                         new ArmorItem(ModArmorMaterials.CINNA_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                                         new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+        public static final Item HACHIWARE_HELMET = registerItem("hachiware_helmet",
+                        new ArmorItem(ModArmorMaterials.HACHIWARE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                                        new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+        public static final Item HACHIWARE_CHESTPLATE = registerItem("hachiware_chestplate",
+                        new ArmorItem(ModArmorMaterials.HACHIWARE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                                        new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+        public static final Item HACHIWARE_LEGGINGS = registerItem("hachiware_leggings",
+                        new ArmorItem(ModArmorMaterials.HACHIWARE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                                        new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+        public static final Item HACHIWARE_BOOTS = registerItem("hachiware_boots",
+                        new ArmorItem(ModArmorMaterials.HACHIWARE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                                        new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
         public static final Item TANDEMAUS_SPAWN_EGG = registerItem("tandemaus_spawn_egg",
                         new SpawnEggItem(ModEntities.TANDEMAUS, 0x000100, 0x000000, new Item.Settings()));
         public static final Item MAUSHOLD_THREE_SPAWN_EGG = registerItem("maushold_3_spawn_egg",

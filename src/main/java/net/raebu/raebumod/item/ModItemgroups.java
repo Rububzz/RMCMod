@@ -25,6 +25,10 @@ public class ModItemgroups {
                         entries.add(ModItems.CINNA_CHESTPLATE);
                         entries.add(ModItems.CINNA_LEGGINGS);
                         entries.add(ModItems.CINNA_BOOTS);
+                        entries.add(ModItems.HACHIWARE_HELMET);
+                        entries.add(ModItems.HACHIWARE_CHESTPLATE);
+                        entries.add(ModItems.HACHIWARE_LEGGINGS);
+                        entries.add(ModItems.HACHIWARE_BOOTS);
                         entries.add(ModItems.TANDEMAUS_SPAWN_EGG);
                         entries.add(ModItems.MAUSHOLD_THREE_SPAWN_EGG);
                         entries.add(ModItems.MAUSHOLD_FOUR_SPAWN_EGG);
