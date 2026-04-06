@@ -1,11 +1,8 @@
 package net.raebu.raebumod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.*;
 import net.raebu.raebumod.RaebuMod;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -60,6 +57,13 @@ public class ModItems {
                         new SpawnEggItem(ModEntities.SYLVEON, 0x111000, 0x111011, new Item.Settings()));
         public static final Item HACHIWARE_SPAWN_EGG = registerItem("hachiware_spawn_egg",
                         new SpawnEggItem(ModEntities.HACHIWARE, 0x5f6f9c, 0xf7f7f7, new Item.Settings()));
+
+        public static final Item CINNAMONROLL_SWORD = registerItem("cinnamonroll_sword", new SwordItem(ModToolMaterials.PINK_GARNETT, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PINK_GARNETT, 3, -2.4f))));
+        public static final Item KUROMI_PICKAXE = registerItem("kuromi_pickaxe", new PickaxeItem(ModToolMaterials.PINK_GARNETT, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNETT, 1, -2.8f))));
+        public static final Item MYMELO_AXE = registerItem("mymelo_axe", new AxeItem(ModToolMaterials.PINK_GARNETT, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNETT, 6, -3.2f))));
+        public static final Item POMPOM_SHOVEL = registerItem("pomppom_shovel", new ShovelItem(ModToolMaterials.PINK_GARNETT, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.PINK_GARNETT, 1.5f, -3.0f))));
+        public static final Item HELLO_KITTIE_HOE = registerItem("hello_kittie_hoe", new HoeItem(ModToolMaterials.PINK_GARNETT, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNETT, 0, -3f))));
+
 
         private static Item registerItem(String name, Item item) {
                 return Registry.register(Registries.ITEM, Identifier.of(RaebuMod.MOD_ID, name), item);

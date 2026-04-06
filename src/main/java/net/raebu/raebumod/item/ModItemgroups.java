@@ -34,6 +34,11 @@ public class ModItemgroups {
                         entries.add(ModItems.MAUSHOLD_FOUR_SPAWN_EGG);
                         entries.add(ModItems.SYLVEON_SPAWN_EGG);
                         entries.add(ModItems.HACHIWARE_SPAWN_EGG);
+                        entries.add(ModItems.CINNAMONROLL_SWORD);
+                        entries.add(ModItems.HELLO_KITTIE_HOE);
+                        entries.add(ModItems.POMPOM_SHOVEL);
+                        entries.add(ModItems.KUROMI_PICKAXE);
+                        entries.add(ModItems.MYMELO_AXE);
                     }).build());
 
     public static void registerItemGroups() {
