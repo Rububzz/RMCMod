@@ -16,9 +16,10 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
+        public static final TagKey<Item> CINNA_REPAIR_ITEMS = createTag("cinna_repair_items");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(RaebuMod.MOD_ID, name));
         }
     }
- }
+}

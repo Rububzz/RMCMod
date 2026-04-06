@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "raebumod:cinna"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "raebumod:cinna"
+      }
+    ]
+  }
+}

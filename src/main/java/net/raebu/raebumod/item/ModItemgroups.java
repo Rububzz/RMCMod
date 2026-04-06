@@ -21,6 +21,10 @@ public class ModItemgroups {
                         entries.add(ModItems.PINK_GARNET_BOOTS);
                         entries.add(ModItems.PINK_GARNET_CHESTPLATE);
                         entries.add(ModItems.PINK_GARNET_LEGGINGS);
+                        entries.add(ModItems.CINNA_HELMET);
+                        entries.add(ModItems.CINNA_CHESTPLATE);
+                        entries.add(ModItems.CINNA_LEGGINGS);
+                        entries.add(ModItems.CINNA_BOOTS);
                         entries.add(ModItems.TANDEMAUS_SPAWN_EGG);
                         entries.add(ModItems.MAUSHOLD_THREE_SPAWN_EGG);
                         entries.add(ModItems.MAUSHOLD_FOUR_SPAWN_EGG);

@@ -13,10 +13,12 @@ import net.raebu.raebumod.entity.client.Sylveon.SylveonModel;
 import net.raebu.raebumod.entity.client.Sylveon.SylveonRenderer;
 import net.raebu.raebumod.entity.client.Tandemaus.TandemausModel;
 import net.raebu.raebumod.entity.client.Tandemaus.TandemausRenderer;
+import net.raebu.raebumod.entity.client.cinna.CinnaArmorRenderer;
 
 public class RaebuModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        CinnaArmorRenderer.register();
         EntityModelLayerRegistry.registerModelLayer(TandemausModel.TANDEMAUS, TandemausModel::getTexturedModelData);
         EntityRendererRegistry.register(ModEntities.TANDEMAUS, TandemausRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(Maushold3Model.MAUSHOLD3, Maushold3Model::getTexturedModelData);
